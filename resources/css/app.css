@@ -1,0 +1,318 @@
+@import "normalize.css";
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: 700;
+}
+
+
+html {
+    font-size: 15px;
+    font-family: Montserrat;
+    letter-spacing: normal;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1550px;
+
+    margin: 0 auto;
+
+    padding: 0 1rem;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #F6F6F6;
+}
+
+/* header */
+
+header {
+    padding: 60px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__col {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.header__col:first-child {
+    justify-content: left;
+}
+
+.header__col:last-child {
+    justify-content: right;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header first col */
+
+.header__header {
+    margin-bottom: 10px;
+
+    line-height: 41.5%;
+    font-size: 28px;
+    font-weight: 700;
+
+    color: #7D6962;
+}
+
+.header__text {
+    margin: 10px 0;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #22202B;
+}
+
+.header__text__work {
+    width: fit-content;
+
+    font-weight: bold;
+    font-size: 10px;
+
+    color: #838EA2;
+
+    background: #F6F6F6;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
+
+/* header /first col */
+
+
+/* header second col */
+
+.header__content__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__content__row:last-child {
+    margin-top: 10px;
+}
+
+.header__tel {
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #22202B;
+
+    text-decoration: none;
+}
+
+.header__address {
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #7D6962;
+    margin: 0;
+}
+
+.header__icon {
+    margin-right: 5px;
+}
+
+/* header /second col */
+
+/* header third col */
+
+.header__call {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    border: transparent 2px solid;
+
+    background: #7D6962;
+    border-radius: 10px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    fill: #FFFFFF;
+}
+
+.header__phone__svg {
+    width: 15px;
+    height: 15px;
+
+    fill: context-fill;
+    margin-right: 10px;
+}
+
+.header__call:hover {
+    background: transparent;
+    border: #7D6962 2px solid;
+
+    color: #7D6962;
+
+    fill: #7D6962;
+}
+
+/* header /third col */
+
+/* /header */
+
+/* introduction */
+
+.introduction {
+    margin-bottom: 80px;
+}
+
+.introduction__inner {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.introduction__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.introduction__content {
+    display: flex;
+    background: #F6F6F6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.introduction__content-big {
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.introduction__content-big > .introduction__image {
+    height: 300px;
+    margin-top: auto;
+}
+
+.introduction__title {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #7D6962;
+}
+
+.introduction__image {
+    display: flex;
+    height: 160px;
+}
+
+/* /introduction */
+
+
+/* catalog */
+
+.catalog {
+    /*display: flex;*/
+}
+
+.catalog__inner {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.catalog__container {
+    flex: 1;
+}
+
+.catalog__title {
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    color: #22202B;
+}
+
+.catalog__content__item {
+
+}
+
+.catalog__content__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #22202B;
+
+    text-transform: uppercase;
+}
+
+.catalog__card__container {
+    display: flex;
+    /*flex: 1;*/
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+/* /nav */
+
+
+/* /catalog */
+
+
