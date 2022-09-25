@@ -153,18 +153,6 @@
 
         <div class="catalog__inner">
 
-            <div class="nav">
-                <h4 class="nav__title">Категории товаров</h4>
-                <a class="nav__item" href="">Самогонные аппараты</a>
-                <a class="nav__item" href="">Дрожжи и сопутствующие товары</a>
-                <a class="nav__item" href="">Дубовые бочки</a>
-                <a class="nav__item" href="">Афганские казаны</a>
-                <a class="nav__item" href="">Узбекские казаны</a>
-                <a class="nav__item" href="">Печи для казанов</a>
-                <a class="nav__item" href="">Коптильни</a>
-                <a class="nav__item" href="">Мангалы и шапуры</a>
-            </div>
-
             <div class="catalog__container">
 
                 <h2 class="catalog__title">Список наших товаров</h2>
@@ -183,20 +171,7 @@
                                 <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
                             </div>
 
-                            <div class="catalog__card__content">
-                                <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
-                            </div>
-
-                        </div>
-
-                        <div class="catalog__card">
-
-                            <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
-                                     alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
-                            </div>
+                            <div class="line"></div>
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
@@ -213,6 +188,8 @@
                                 <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
                             </div>
 
+                            <div class="line"></div>
+
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
                                 <div class="catalog__card__price">2000 ₽</div>
@@ -220,6 +197,295 @@
 
                         </div>
 
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="catalog__content__item">
+
+                    <h3 class="catalog__content__title">Дрожжи</h3>
+
+                    <div class="catalog__card__container">
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog__content__item">
+
+                    <h3 class="catalog__content__title">Дубовые бочки</h3>
+
+                    <div class="catalog__card__container">
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="nav">
+                <div style="position: sticky; top: 40px;">
+                    <div class="nav__content">
+                        <h4 class="nav__title">Категории товаров</h4>
+
+                        <div class="nav__line"></div>
+
+                        <a class="nav__item" href="">Самогонные аппараты</a>
+                        <a class="nav__item" href="">Дрожжи и сопутствующие товары</a>
+                        <a class="nav__item" href="">Дубовые бочки</a>
+                        <a class="nav__item" href="">Афганские казаны</a>
+                        <a class="nav__item" href="">Узбекские казаны</a>
+                        <a class="nav__item" href="">Печи для казанов</a>
+                        <a class="nav__item" href="">Коптильни</a>
+                        <a class="nav__item" href="">Мангалы и шапуры</a>
+                    </div>
+
+                    <div class="nav__content transparent">
+                        <div class="nav__line gray"></div>
+
+                        <h4 class="nav__title">Как нас найти</h4>
                     </div>
 
                 </div>
