@@ -16,6 +16,7 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
-        "normalize.css": "^8.0.1"
+        "normalize.css": "^8.0.1",
+        "sweetalert2": "^11.4.33"
     }
 }
