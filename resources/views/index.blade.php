@@ -51,7 +51,7 @@
             </div>
 
             <div class="header__col">
-                <button class="header__call">
+                <button id="modal" class="header__call">
                     <svg class="header__phone__svg">
                         <use xlink:href="../assets/icons/tel.svg#tel"></use>
                     </svg>
@@ -148,12 +148,12 @@
 </section>
 
 
-<section class="catalog">
+<section class="content">
     <div class="container">
 
-        <div class="catalog__inner">
+        <div class="content__inner">
 
-            <div class="catalog__container">
+            <div class="content__container">
 
                 <h2 class="catalog__title">Список наших товаров</h2>
 
@@ -463,10 +463,65 @@
 
                 </div>
 
+
+                <section class="contact">
+                    <div class="contact__header">
+                        <img class="contact__icon" src="{{ asset('/assets/icons/map.svg')  }}" alt="icon">
+                        <h3 class="contact__title">Контакты</h3>
+                    </div>
+
+                    <div class="contact__content">
+
+                        <div class="contact__info__container">
+                            <img class="contact__icon__info" src="{{ asset('/assets/icons/user.svg') }}" alt="user">
+                            <p class="contact__info">ИП Алексей Лазарев </p>
+                        </div>
+                        <div class="contact__info__container">
+                            <img class="contact__icon__info" src="{{ asset('/assets/icons/tel.svg') }}" alt="tel">
+                            <a class="contact__info">+7 (900) 123-45-67</a>
+                        </div>
+                        <div class="contact__info__container">
+                            <img class="contact__icon__info" src="{{ asset('/assets/icons/map.svg') }}" alt="dot">
+                            <p class="contact__info">Курган, Некрасова ул., 15Ас10, 4а</p>
+                        </div>
+
+                        <p class="contact__text">Самогонные аппараты, шланги, термометр, РПН, царги, дрожжи, товары для облагораживания
+                            дистиллята, дубовые бочки
+                            Казаны из Узбекистана, афганские казаны! Печи для казанов (УЧАГ). Коптильни горячего и
+                            холодного копчения. Мангалы и шампуры.</p>
+
+                        <p class="contact__text">Большой выбор печей с трубой и без трубы под казаны с круглым и плоским дном.
+                            Работаем за наличный и безналичный расчет!</p>
+
+                        <div class="contact__text--big">НА НЕКРАСОВА ВСЕГДА ДЕШЕВЛЕ!</div>
+
+                    </div>
+
+                </section>
+
+                <section class="map">
+                    <div class="map__header">
+                        <img class="map__icon" src="{{ asset('/assets/icons/where.svg') }}" alt="icon">
+                        <h3 class="map__title">Как нас найти</h3>
+                    </div>
+
+                    <div class="map__widget" style="position: relative; overflow: hidden"><a
+                            href="https://yandex.ru/maps/org/samo_varchik/79212845827/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:0px;">САМО-ВАРчик</a><a
+                            href="https://yandex.ru/maps/53/kurgan/category/homemade_equipment/186073544962/?utm_medium=mapframe&utm_source=maps"
+                            style="color:#eee;font-size:12px;position:absolute;top:14px;">Самогонное оборудование в
+                            Кургане</a>
+                        <iframe src="https://yandex.ru/map-widget/v1/-/CCUVnPWE9A" width="1000" height="500"
+                                frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                    </div>
+
+                </section>
+
+
             </div>
 
             <div class="nav">
-                <div style="position: sticky; top: 40px;">
+                <div class="nav__sticky">
                     <div class="nav__content">
                         <h4 class="nav__title">Категории товаров</h4>
 
@@ -492,10 +547,32 @@
 
             </div>
 
+
         </div>
 
     </div>
 </section>
+
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+
+            <div class="header__logo">
+                <img src="" alt="logo">
+            </div>
+
+            <div class="header__content">
+                <h1 class="header__header">САМО-ВАРчик</h1>
+
+                <p class="header__text">Вари свое, натуральное!</p>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
 
 
 <script src="{{ asset('js/app.js') }}"></script>
