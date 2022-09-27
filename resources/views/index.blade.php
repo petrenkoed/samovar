@@ -78,7 +78,7 @@
 
 
             <div class="introduction__container">
-                <div style="display: flex; gap: 40px">
+                <div class="introduction__control">
                     <div class="introduction__content">
                         <h3 class="introduction__title">Самогонные аппараты</h3>
                         <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
@@ -91,7 +91,7 @@
                 </div>
 
 
-                <div style="display: flex; gap: 40px">
+                <div class="introduction__control">
                     <div class="introduction__content">
                         <h3 class="introduction__title">Самогонные аппараты</h3>
                         <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
@@ -111,7 +111,7 @@
         <div class="introduction__inner">
 
             <div class="introduction__container">
-                <div style="display: flex; gap: 40px">
+                <div class="introduction__control">
                     <div class="introduction__content">
                         <h3 class="introduction__title">Самогонные аппараты</h3>
                         <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
@@ -124,7 +124,7 @@
                 </div>
 
 
-                <div style="display: flex; gap: 40px">
+                <div class="introduction__control">
                     <div class="introduction__content">
                         <h3 class="introduction__title">Самогонные аппараты</h3>
                         <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
@@ -511,8 +511,8 @@
                             href="https://yandex.ru/maps/53/kurgan/category/homemade_equipment/186073544962/?utm_medium=mapframe&utm_source=maps"
                             style="color:#eee;font-size:12px;position:absolute;top:14px;">Самогонное оборудование в
                             Кургане</a>
-                        <iframe src="https://yandex.ru/map-widget/v1/-/CCUVnPWE9A" width="1000" height="500"
-                                frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                        <iframe src="https://yandex.ru/map-widget/v1/-/CCUVnPWE9A"
+                                frameborder="1" allowfullscreen="true" class="map__iframe"></iframe>
                     </div>
 
                 </section>
@@ -540,7 +540,7 @@
                     <div class="nav__content transparent">
                         <div class="nav__line gray"></div>
 
-                        <h4 class="nav__title">Как нас найти</h4>
+                        <a href="" class="nav__title">Как нас найти</a>
                     </div>
 
                 </div>
