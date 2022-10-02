@@ -21,5 +21,6 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
-            cd ~/var/www/samovar
-            ls -la
+            cd ~/
+            cd /var/www/samovar
+            git pull
