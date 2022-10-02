@@ -6,6 +6,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css')  }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href=" {{ asset('/apple-touch-icon.png')  }}">
+    <link rel="icon" type="image/png" sizes="32x32" href=" {{ asset('/favicon-32x32.png')  }}">
+    <link rel="icon" type="image/png" sizes="16x16" href=" {{ asset('/favicon-16x16.png')  }}">
+    <link rel="manifest" href=" {{ asset('/site.webmanifest')  }}">
+    <link rel="mask-icon" href=" {{ asset('/safari-pinned-tab.svg')  }}" color="#191919">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+
     <title>САМО-ВАРчик</title>
 </head>
 <body>
@@ -18,7 +27,7 @@
             <div class="header__col">
 
                 <div class="header__logo">
-                    <img src="" alt="logo">
+                    <img src="{{ asset("/assets/logo.svg")  }}" alt="logo">
                 </div>
 
                 <div class="header__content">
@@ -26,7 +35,7 @@
 
                     <p class="header__text">Вари свое, натуральное!</p>
 
-                    <p class="header__text__work">Работаем с 2010 года</p>
+{{--                    <p class="header__text__work">Работаем с 2010 года</p>--}}
                 </div>
 
             </div>
@@ -37,7 +46,7 @@
 
                     <div class="header__content__row">
                         <img class="header__icon" src="{{ asset("/assets/icons/tel.svg") }}" alt="tel">
-                        <a class="header__tel" href="tel:">+7 (900) 123-45-67</a>
+                        <a class="header__tel" href="tel:+79630056030">+7 (963) 005-60-30</a>
                     </div>
 
                     <div class="header__content__row">
@@ -159,7 +168,7 @@
 
                 <div class="catalog__content__item">
 
-                    <h3 class="catalog__content__title">Самогонные аппараты</h3>
+                    <h3 id="moonshine-stills" class="catalog__content__title">Самогонные аппараты</h3>
 
                     <div class="catalog__card__container">
 
@@ -307,7 +316,7 @@
 
                 <div class="catalog__content__item">
 
-                    <h3 class="catalog__content__title">Дрожжи</h3>
+                    <h3 id="yeast" class="catalog__content__title">Дрожжи</h3>
 
                     <div class="catalog__card__container">
 
@@ -355,7 +364,6 @@
 
                             <div class="line"></div>
 
-
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
                                 <div class="catalog__card__price">2000 ₽</div>
@@ -386,7 +394,7 @@
 
                 <div class="catalog__content__item">
 
-                    <h3 class="catalog__content__title">Дубовые бочки</h3>
+                    <h3 id="oak-barrels" class="catalog__content__title">Дубовые бочки</h3>
 
                     <div class="catalog__card__container">
 
@@ -478,19 +486,21 @@
                         </div>
                         <div class="contact__info__container">
                             <img class="contact__icon__info" src="{{ asset('/assets/icons/tel.svg') }}" alt="tel">
-                            <a class="contact__info">+7 (900) 123-45-67</a>
+                            <a class="contact__info" href="tel:+79630056030">+7 (963) 005-60-30</a>
                         </div>
                         <div class="contact__info__container">
                             <img class="contact__icon__info" src="{{ asset('/assets/icons/map.svg') }}" alt="dot">
                             <p class="contact__info">Курган, Некрасова ул., 15Ас10, 4а</p>
                         </div>
 
-                        <p class="contact__text">Самогонные аппараты, шланги, термометр, РПН, царги, дрожжи, товары для облагораживания
+                        <p class="contact__text">Самогонные аппараты, шланги, термометр, РПН, царги, дрожжи, товары для
+                            облагораживания
                             дистиллята, дубовые бочки
                             Казаны из Узбекистана, афганские казаны! Печи для казанов (УЧАГ). Коптильни горячего и
                             холодного копчения. Мангалы и шампуры.</p>
 
-                        <p class="contact__text">Большой выбор печей с трубой и без трубы под казаны с круглым и плоским дном.
+                        <p class="contact__text">Большой выбор печей с трубой и без трубы под казаны с круглым и плоским
+                            дном.
                             Работаем за наличный и безналичный расчет!</p>
 
                         <div class="contact__text--big">НА НЕКРАСОВА ВСЕГДА ДЕШЕВЛЕ!</div>
@@ -502,7 +512,7 @@
                 <section class="map">
                     <div class="map__header">
                         <img class="map__icon" src="{{ asset('/assets/icons/where.svg') }}" alt="icon">
-                        <h3 class="map__title">Как нас найти</h3>
+                        <h3 id="where" class="map__title">Как нас найти</h3>
                     </div>
 
                     <div class="map__widget" style="position: relative; overflow: hidden"><a
@@ -523,24 +533,24 @@
             <div class="nav">
                 <div class="nav__sticky">
                     <div class="nav__content">
-                        <h4 class="nav__title">Категории товаров</h4>
+                        <a class="nav__title">Категории товаров</a>
 
                         <div class="nav__line"></div>
 
-                        <a class="nav__item" href="">Самогонные аппараты</a>
-                        <a class="nav__item" href="">Дрожжи и сопутствующие товары</a>
-                        <a class="nav__item" href="">Дубовые бочки</a>
-                        <a class="nav__item" href="">Афганские казаны</a>
-                        <a class="nav__item" href="">Узбекские казаны</a>
-                        <a class="nav__item" href="">Печи для казанов</a>
-                        <a class="nav__item" href="">Коптильни</a>
-                        <a class="nav__item" href="">Мангалы и шапуры</a>
+                        <a class="nav__item" data-anchor="moonshine-stills" href="">Самогонные аппараты</a>
+                        <a class="nav__item" data-anchor="yeast" href="">Дрожжи и сопутствующие товары</a>
+                        <a class="nav__item" data-anchor="oak-barrels" href="">Дубовые бочки</a>
+                        <a class="nav__item" data-anchor="" href="">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="" href="">Узбекские казаны</a>
+                        <a class="nav__item" data-anchor="" href="">Печи для казанов</a>
+                        <a class="nav__item" data-anchor="" href="">Коптильни</a>
+                        <a class="nav__item" data-anchor="" href="">Мангалы и шапуры</a>
                     </div>
 
                     <div class="nav__content transparent">
                         <div class="nav__line gray"></div>
 
-                        <a href="" class="nav__title">Как нас найти</a>
+                        <a href="" data-anchor="where" class="nav__title">Как нас найти</a>
                     </div>
 
                 </div>
@@ -558,14 +568,14 @@
 
         <div class="footer__inner">
 
-            <div class="header__logo">
-                <img src="" alt="logo">
+            <div class="footer__logo">
+                <img src="{{ asset("/assets/logo.svg")  }}" alt="logo">
             </div>
 
-            <div class="header__content">
-                <h1 class="header__header">САМО-ВАРчик</h1>
+            <div class="footer__content">
+                <h1 class="footer__header">САМО-ВАРчик</h1>
 
-                <p class="header__text">Вари свое, натуральное!</p>
+                <p class="footer__text">Вари свое, натуральное!</p>
             </div>
 
         </div>
@@ -574,8 +584,59 @@
 </footer>
 
 
+<div class="adaptive__header">
 
-<script src="{{ asset('js/app.js') }}"></script>
+    <div class="container">
+
+        <div class="adaptive__inner">
+
+{{--            <div class="adaptive__logo">--}}
+{{--                <img src="" alt="logo">--}}
+{{--            </div>--}}
+
+            <div id="menu" class="xs_menu">
+                <div id="overlay" class="overlay c_xs_menu"></div>
+                <div class="xs_cont">
+                    <div class="c_xs_menu">
+                        <img src="{{ asset('/assets/icons/close.svg')  }}" alt="close" id="closeMenuBtn">
+                    </div>
+                    <div class="adaptive__content__row">
+                        <img class="adaptive__icon" src="{{ asset("/assets/icons/tel.svg") }}" alt="tel">
+                        <a class="adaptive__tel" href="tel:+79630056030">+7 (963) 005-60-30</a>
+                    </div>
+
+                    <div class="adaptive__content__row">
+                        <img class="adaptive__icon" src="{{ asset("/assets/icons/map.svg") }}" alt="map">
+                        <p class="adaptive__address">Курган, Некрасова ул., 15Ас10, 4а</p>
+                    </div>
+                    <div class="adaptive__nav__content">
+                        <a class="nav__title">Категории товаров</a>
+
+                        <div class="nav__line"></div>
+
+                        <a class="nav__item" data-anchor="moonshine-stills" href="">Самогонные аппараты</a>
+                        <a class="nav__item" data-anchor="yeast" href="">Дрожжи и сопутствующие товары</a>
+                        <a class="nav__item" data-anchor="oak-barrels" href="">Дубовые бочки</a>
+                        <a class="nav__item" data-anchor="" href="">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="" href="">Узбекские казаны</a>
+                        <a class="nav__item" data-anchor="" href="">Печи для казанов</a>
+                        <a class="nav__item" data-anchor="" href="">Коптильни</a>
+                        <a class="nav__item" data-anchor="" href="">Мангалы и шапуры</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="adaptive__tool">
+                <img src="{{ asset('/assets/icons/menu.svg') }}" alt="menu" class="adaptive__burger" id="openMenuBtn">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="{{ asset('js/app.js') }}"></script>
 
 </body>
 </html>

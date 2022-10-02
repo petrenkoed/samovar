@@ -4,7 +4,6 @@ const Swal = require('sweetalert2');
 document.addEventListener('DOMContentLoaded', () => {
 
     const openModalBtn = document.getElementById('modal')
-
     openModalBtn.addEventListener('click', async () => {
 
         const {value: formValues} = await Swal.fire({
@@ -24,8 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
             willOpen: () => {
                 phoneinput()
             } ,
-            focusConfirm: true,
-            confirmButtonText: 'Отправить',
+            customClass: {
+                confirmButton: 'modal__btn',
+                actions: 'modal__action'
+            },
+            focusConfirm: false,
+            confirmButtonText: 'Перезвонить мне!',
             preConfirm: () => {
                 return [
                     document.getElementById('name').value,
@@ -39,14 +42,67 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(res => {
                     Swal.fire({
                         icon: 'success',
-                        title: 'Скоро вам перезвонят!',
+                        title: 'Спасибо! Мы обязательно перезвоним к Вам в ближайшее время!',
                         showConfirmButton: false,
                         timer: 1500
                     })
                 })
         }
     })
+
+    // adaptive menu
+
+    const closeAdaptiveMenu = () => {
+        menu.classList.remove('active')
+        document.body.style.overflow = ''
+    }
+
+    const burgerMenuOpenBtn = document.getElementById('openMenuBtn');
+    const menu = document.getElementById('menu')
+    burgerMenuOpenBtn.addEventListener('click', () => {
+        menu.classList.add('active')
+        document.body.style.overflow = 'hidden'
+    })
+
+    const burgerCloseMenuBtn = document.getElementById('closeMenuBtn')
+    burgerCloseMenuBtn.addEventListener('click', () => {
+        menu.classList.remove('active')
+        document.body.style.overflow = ''
+    })
+
+
+    const overlay = document.getElementById('overlay')
+    overlay.addEventListener('click', () => {
+        closeAdaptiveMenu()
+    })
+
+    // smooth scroll
+
+    const anchors = document.querySelectorAll('a[data-anchor]')
+
+    for (let anchor of anchors) {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault()
+
+            const blockID = e.target.dataset.anchor
+
+            document.getElementById(blockID).scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            })
+
+            closeAdaptiveMenu()
+        })
+    }
+
+
 })
+
+
+
+
+
+
 
 
 const phoneinput = () => {

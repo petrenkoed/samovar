@@ -2093,8 +2093,12 @@ document.addEventListener('DOMContentLoaded', function () {
               willOpen: function willOpen() {
                 phoneinput();
               },
-              focusConfirm: true,
-              confirmButtonText: 'Отправить',
+              customClass: {
+                confirmButton: 'modal__btn',
+                actions: 'modal__action'
+              },
+              focusConfirm: false,
+              confirmButtonText: 'Перезвонить мне!',
               preConfirm: function preConfirm() {
                 return [document.getElementById('name').value, document.getElementById('tel').value];
               }
@@ -2111,7 +2115,7 @@ document.addEventListener('DOMContentLoaded', function () {
               }).then(function (res) {
                 Swal.fire({
                   icon: 'success',
-                  title: 'Скоро вам перезвонят!',
+                  title: 'Спасибо! Мы обязательно перезвоним к Вам в ближайшее время!',
                   showConfirmButton: false,
                   timer: 1500
                 });
@@ -2124,7 +2128,52 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
     }, _callee);
-  })));
+  }))); // adaptive menu
+
+  var closeAdaptiveMenu = function closeAdaptiveMenu() {
+    menu.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+
+  var burgerMenuOpenBtn = document.getElementById('openMenuBtn');
+  var menu = document.getElementById('menu');
+  burgerMenuOpenBtn.addEventListener('click', function () {
+    menu.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  });
+  var burgerCloseMenuBtn = document.getElementById('closeMenuBtn');
+  burgerCloseMenuBtn.addEventListener('click', function () {
+    menu.classList.remove('active');
+    document.body.style.overflow = '';
+  });
+  var overlay = document.getElementById('overlay');
+  overlay.addEventListener('click', function () {
+    closeAdaptiveMenu();
+  }); // smooth scroll
+
+  var anchors = document.querySelectorAll('a[data-anchor]');
+
+  var _iterator = _createForOfIteratorHelper(anchors),
+      _step;
+
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var anchor = _step.value;
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        var blockID = e.target.dataset.anchor;
+        document.getElementById(blockID).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+        closeAdaptiveMenu();
+      });
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
 });
 
 var phoneinput = function phoneinput() {
@@ -2208,20 +2257,20 @@ var phoneinput = function phoneinput() {
     }
   };
 
-  var _iterator = _createForOfIteratorHelper(phoneInputs),
-      _step;
+  var _iterator2 = _createForOfIteratorHelper(phoneInputs),
+      _step2;
 
   try {
-    for (_iterator.s(); !(_step = _iterator.n()).done;) {
-      var phoneInput = _step.value;
+    for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+      var phoneInput = _step2.value;
       phoneInput.addEventListener('keydown', onPhoneKeyDown);
       phoneInput.addEventListener('input', onPhoneInput, false);
       phoneInput.addEventListener('paste', onPhonePaste, false);
     }
   } catch (err) {
-    _iterator.e(err);
+    _iterator2.e(err);
   } finally {
-    _iterator.f();
+    _iterator2.f();
   }
 };
 
