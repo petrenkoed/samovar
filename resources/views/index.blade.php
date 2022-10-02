@@ -7,6 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css')  }}">
 
+    <meta name="keywords"
+          content="самовар, самоварчик45, самоварчик45.рф, самогонные аппараты курган, шланги, термометр, РПН, царги, дрожжи, дубовые бочки, самогонные аппараты">
+    <meta name="description"
+          content="Самогонные аппараты, шланги, термометр, РПН, царги, дрожжи, товары для облагораживания дистиллята, дубовые бочки Казаны из Узбекистана, афганские казаны! Печи для казанов (УЧАГ). Коптильни горячего и холодного копчения. Мангалы и шампуры.">
+
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Самоварчик">
+    <meta property="og:description" content="Вари свое, натуральное!">
+    <meta property="og:site_name" content="Самоварчик">
+    <meta property="og:url" content="/">
+
     <link rel="apple-touch-icon" sizes="180x180" href=" {{ asset('/apple-touch-icon.png')  }}">
     <link rel="icon" type="image/png" sizes="32x32" href=" {{ asset('/favicon-32x32.png')  }}">
     <link rel="icon" type="image/png" sizes="16x16" href=" {{ asset('/favicon-16x16.png')  }}">
@@ -35,7 +47,7 @@
 
                     <p class="header__text">Вари свое, натуральное!</p>
 
-{{--                    <p class="header__text__work">Работаем с 2010 года</p>--}}
+                    {{--                    <p class="header__text__work">Работаем с 2010 года</p>--}}
                 </div>
 
             </div>
@@ -590,9 +602,9 @@
 
         <div class="adaptive__inner">
 
-{{--            <div class="adaptive__logo">--}}
-{{--                <img src="" alt="logo">--}}
-{{--            </div>--}}
+            {{--            <div class="adaptive__logo">--}}
+            {{--                <img src="" alt="logo">--}}
+            {{--            </div>--}}
 
             <div id="menu" class="xs_menu">
                 <div id="overlay" class="overlay c_xs_menu"></div>
