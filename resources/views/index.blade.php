@@ -540,7 +540,7 @@
                         <a class="nav__item" data-anchor="moonshine-stills" href="">Самогонные аппараты</a>
                         <a class="nav__item" data-anchor="yeast" href="">Дрожжи и сопутствующие товары</a>
                         <a class="nav__item" data-anchor="oak-barrels" href="">Дубовые бочки</a>
-                        <a class="nav__item" data-anchor="" href="">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="afghan-cauldrons" href="">Афганские казаны</a>
                         <a class="nav__item" data-anchor="" href="">Узбекские казаны</a>
                         <a class="nav__item" data-anchor="" href="">Печи для казанов</a>
                         <a class="nav__item" data-anchor="" href="">Коптильни</a>
