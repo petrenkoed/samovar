@@ -482,7 +482,7 @@
 
                         <div class="contact__info__container">
                             <img class="contact__icon__info" src="{{ asset('/assets/icons/user.svg') }}" alt="user">
-                            <p class="contact__info">ИП Алексей Лазарев </p>
+                            <p class="contact__info">ИП Корякина Елена Сергеевна</p>
                         </div>
                         <div class="contact__info__container">
                             <img class="contact__icon__info" src="{{ asset('/assets/icons/tel.svg') }}" alt="tel">
