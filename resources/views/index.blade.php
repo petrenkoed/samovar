@@ -138,13 +138,13 @@
 
                 <div class="introduction__control">
                     <div class="introduction__content">
-                        <h3 class="introduction__title">Самогонные аппараты</h3>
-                        <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
+                        <h3 class="introduction__title">Комплекты: Печь + Казан</h3>
+                        <img class="introduction__image" src="{{ asset('assets/cauldron-set.png') }}" alt="">
                     </div>
 
                     <div class="introduction__content">
-                        <h3 class="introduction__title">Самогонные аппараты</h3>
-                        <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
+                        <h3 class="introduction__title">Печи для казанов</h3>
+                        <img class="introduction__image" src="{{ asset('assets/bake.png') }}" alt="">
                     </div>
                 </div>
 
@@ -158,8 +158,8 @@
             <div class="introduction__container">
                 <div class="introduction__control">
                     <div class="introduction__content">
-                        <h3 class="introduction__title">Самогонные аппараты</h3>
-                        <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
+                        <h3 class="introduction__title">Шумовки и шампура</h3>
+                        <img class="introduction__image" src="{{ asset('assets/skewers.png') }}" alt="">
                     </div>
 
                     <div class="introduction__content">
@@ -316,7 +316,6 @@
                     </div>
 
                 </div>
-
 
                 <div class="catalog__content__item">
 
@@ -523,7 +522,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">250 ₽</div>
                             </div>
 
                         </div>
@@ -540,6 +539,332 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">200 ₽</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog__content__item">
+
+                    <h3 id="furnace+cauldron" class="catalog__content__title">Комплекты: Печь + Казан</h3>
+
+                    <div class="catalog__card__container">
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Казан Наманган 8 л. и печь с дверцей сталь 2 мм, разборная.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Узбекский чугунный казан 8 л. + печь d-340 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.png') }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Комплект усиленный: Узбекский чугунный казан 12 л. + печь 3 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Казан Наманган 12 л. и печь с дверцей сталь 2 мм, разборная.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Узбекский чугунный казан 8 л. + печь с трубой.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Узбекский чугунный казан 10 л. + печь с трубой 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Узбекский чугунный казан 12 л. + печь с трубой усиленная сталь 3 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Узбекский чугунный казан 16 л.+ печь с трубой 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {{-- bakes --}}
+                <div class="catalog__content__item">
+
+                    <h3 id="bake" class="catalog__content__title">Печи для казанов</h3>
+
+                    <div class="catalog__card__container">
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь под казан на 8-10 л. d-340 мм. сталь 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь под казан на 12 л. d-360 мм. сталь 3 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake1.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь под казан на 16 л. d-410мм. сталь 3 мм. усиленная, разборная.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь под казан с дверцей 6-8 л. (320 мм.) сталь 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь под казан с дверцей 10 л. (340 мм.) сталь 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь под казан с дверцей 12 л. (360 мм.) сталь 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake3.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь с трубой под казан на 8-10 л. d-340 мм. сталь 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake3.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь с трубой под казан на 12 л. d-360 мм. сталь 2 мм.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/bake4.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Печь с трубой под казан на 17-18 л. D-440 мм.сталь 3 мм. Усиленная.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
                                 <div class="catalog__card__price">2000 ₽</div>
                             </div>
 
@@ -551,50 +876,16 @@
 
                 <div class="catalog__content__item">
 
-                    <h3 id="oak-barrels" class="catalog__content__title">Дубовые бочки</h3>
+                    <h3 id="skimmers-skewers" class="catalog__content__title">Шумовки и шампура</h3>
 
                     <div class="catalog__card__container">
 
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/skimmers.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
-                            </div>
-
-                            <div class="line"></div>
-
-                            <div class="catalog__card__content">
-                                <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
-                            </div>
-
-                        </div>
-
-                        <div class="catalog__card">
-
-                            <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
-                                     alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
-                            </div>
-
-                            <div class="line"></div>
-
-                            <div class="catalog__card__content">
-                                <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
-                            </div>
-
-                        </div>
-
-                        <div class="catalog__card">
-
-                            <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
-                                     alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Шумовка для казана средняя (10-25 л.) с деревянной ручкой 46.5 см.</div>
                             </div>
 
                             <div class="line"></div>
@@ -610,12 +901,13 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/skimmers1.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Шумовка 47 см глубокая, нерж сталь с дырочками д/р.</div>
                             </div>
 
                             <div class="line"></div>
+
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
@@ -623,6 +915,179 @@
                             </div>
 
                         </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skimmers2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Шумовка для казана большая (25-110 л.) с деревянной ручкой 64 см усиленная.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skimmers3.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Лопатка для жарки перфорированная 45 см. деревянная ручка.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Шампур с деревянной ручкой из нержавеющей стали 3 мм. (400х12х3 мм.).</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers1.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Шампур двойной вилка нержавеющая сталь 400х12х3 мм. деревянная ручка.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Нож-вилка для снятия мяса с шампура, нерж, деревянная ручка.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers-set.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Набор шампуров в чехле, 400х12х3 мм. нерж, дер/ручка, таганок.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers-set1.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Набор шампуров Элит Большой в коробе кожзам 6 шампуров.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers3.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Шампур для люля кебаб 400х20х3 мм. дер. Ручка.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/skewers-set2.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Набор шампуров в колчане 40 см, 6 шампуров, нож-вилка, шампур двойной.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="catalog__content__item">
+
+                    <h3 id="moonshine-stills" class="catalog__content__title">Самогонные аппараты</h3>
+
+                    <div class="catalog__card__container">
+
 
                     </div>
 
@@ -696,12 +1161,11 @@
 
                         <a class="nav__item" data-anchor="uzbek-cauldron">Узбекские казаны</a>
                         <a class="nav__item" data-anchor="afghan-cauldron">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="furnace+cauldron">Комплекты: Печь + Казан</a>
+                        <a class="nav__item" data-anchor="bake">Печи для казанов</a>
+                        <a class="nav__item" data-anchor="skimmers-skewers">Шумовки и шампура</a>
                         <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
-                        <a class="nav__item" data-anchor="yeast">Дрожжи и сопутствующие товары</a>
-                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
-                        <a class="nav__item" data-anchor="">Печи для казанов</a>
-                        <a class="nav__item" data-anchor="">Коптильни</a>
-                        <a class="nav__item" data-anchor="">Мангалы и шапуры</a>
+
                     </div>
 
                     <div class="nav__content transparent">
@@ -747,10 +1211,6 @@
 
         <div class="adaptive__inner">
 
-            {{--            <div class="adaptive__logo">--}}
-            {{--                <img src="" alt="logo">--}}
-            {{--            </div>--}}
-
             <div id="menu" class="xs_menu">
                 <div id="overlay" class="overlay c_xs_menu"></div>
                 <div class="xs_cont">
@@ -773,12 +1233,10 @@
 
                         <a class="nav__item" data-anchor="uzbek-cauldron">Узбекские казаны</a>
                         <a class="nav__item" data-anchor="afghan-cauldron">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="furnace+cauldron">Комплекты: Печь + Казан</a>
+                        <a class="nav__item" data-anchor="bake">Печи для казанов</a>
+                        <a class="nav__item" data-anchor="skimmers-skewers">Шумовки и шампура</a>
                         <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
-                        <a class="nav__item" data-anchor="yeast">Дрожжи и сопутствующие товары</a>
-                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
-                        <a class="nav__item" data-anchor="">Печи для казанов</a>
-                        <a class="nav__item" data-anchor="">Коптильни</a>
-                        <a class="nav__item" data-anchor="">Мангалы и шапуры</a>
                     </div>
                 </div>
 
