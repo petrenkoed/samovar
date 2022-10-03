@@ -194,6 +194,9 @@ header {
 
     cursor: pointer;
 
+}
+
+.header__call > svg > use  {
     fill: #FFFFFF;
 }
 
@@ -201,7 +204,6 @@ header {
     width: 15px;
     height: 15px;
 
-    fill: context-fill;
     margin-right: 10px;
 }
 
@@ -211,6 +213,10 @@ header {
 
     color: #7D6962;
 
+    fill: #7D6962;
+}
+
+.header__call:hover > svg > use  {
     fill: #7D6962;
 }
 
@@ -229,18 +235,18 @@ header {
 
     display: flex;
     justify-content: center;
-    gap: 40px;
+    column-gap: 40px;
 }
 
 .introduction__container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    column-gap: 40px;
 }
 
 .introduction__control {
     display: flex;
-    gap: 40px;
+    column-gap: 40px;
 }
 
 .introduction__content {
@@ -275,6 +281,7 @@ header {
     display: flex;
     height: 160px;
     object-fit: contain;
+    -o-object-fit: contain;
 }
 
 /* /introduction */
