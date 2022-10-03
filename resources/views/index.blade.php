@@ -336,7 +336,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3350 ₽</div>
                             </div>
 
                         </div>
@@ -353,7 +353,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3350 ₽</div>
                             </div>
 
                         </div>
@@ -370,7 +370,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3950 ₽</div>
                             </div>
 
                         </div>
@@ -387,7 +387,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">4250 ₽</div>
                             </div>
 
                         </div>
@@ -404,7 +404,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">4450 ₽</div>
                             </div>
 
                         </div>
@@ -421,7 +421,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">5450 ₽</div>
                             </div>
 
                         </div>
@@ -438,7 +438,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">5950 ₽</div>
                             </div>
 
                         </div>
@@ -455,7 +455,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3650 ₽</div>
                             </div>
 
                         </div>
@@ -472,7 +472,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3750 ₽</div>
                             </div>
 
                         </div>
@@ -489,7 +489,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">4750 ₽</div>
                             </div>
 
                         </div>
@@ -506,24 +506,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
-                            </div>
-
-                        </div>
-
-                        <div class="catalog__card">
-
-                            <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.png')  }}"
-                                     alt="preview">
-                                <div class="catalog__card__title">Афганский казан-скороварка 20 л. двухцветный, алюминий.</div>
-                            </div>
-
-                            <div class="line"></div>
-
-                            <div class="catalog__card__content">
-                                <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">5650 ₽</div>
                             </div>
 
                         </div>
@@ -533,7 +516,24 @@
                             <div class="catalog__card__content">
                                 <img class="catalog__card__preview" src="{{ asset('assets/silicone-gasket.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Силиконовая прокладка к афганскому казану 5-8-10-15 л.</div>
+                                <div class="catalog__card__title">Силиконовая прокладка к афганскому казану 5,8,10,15 л.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/valve.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Клапан к афганскому казану на резинке.</div>
                             </div>
 
                             <div class="line"></div>
