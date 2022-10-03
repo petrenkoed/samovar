@@ -28,20 +28,30 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(90632244, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/90632244" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/90632244" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 
     <title>САМО-ВАРчик</title>
@@ -85,7 +95,6 @@
 
                 </div>
 
-
             </div>
 
             <div class="header__col">
@@ -114,20 +123,18 @@
                 <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
             </div>
 
-
             <div class="introduction__container">
                 <div class="introduction__control">
                     <div class="introduction__content">
-                        <h3 class="introduction__title">Самогонные аппараты</h3>
-                        <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
+                        <h3 class="introduction__title">Узбекские казаны</h3>
+                        <img class="introduction__image" src="{{ asset('assets/uzbek-cauldron.png') }}" alt="">
                     </div>
 
                     <div class="introduction__content">
-                        <h3 class="introduction__title">Самогонные аппараты</h3>
-                        <img class="introduction__image" src="{{ asset('assets/system.png') }}" alt="">
+                        <h3 class="introduction__title">Афганские казаны</h3>
+                        <img class="introduction__image" src="{{ asset('assets/afghan-cauldron12.png') }}" alt="">
                     </div>
                 </div>
-
 
                 <div class="introduction__control">
                     <div class="introduction__content">
@@ -197,23 +204,25 @@
 
                 <div class="catalog__content__item">
 
-                    <h3 id="moonshine-stills" class="catalog__content__title">Самогонные аппараты</h3>
+                    <h3 id="uzbek-cauldron" class="catalog__content__title">Узбекские казаны</h3>
 
                     <div class="catalog__card__container">
 
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/uzbek-cauldron.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Узбекский чугунный казан для дома 6 литров, плоское
+                                    дно.
+                                </div>
                             </div>
 
                             <div class="line"></div>
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">1650 ₽</div>
                             </div>
 
                         </div>
@@ -221,16 +230,16 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/uzbek-cauldron.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Узбекский чугунный казан для дома 8 литров, плоское дно.</div>
                             </div>
 
                             <div class="line"></div>
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">2150 ₽</div>
                             </div>
 
                         </div>
@@ -238,9 +247,9 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/uzbek-cauldron.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Узбекский чугунный казан 10 литров, плоское дно.</div>
                             </div>
 
                             <div class="line"></div>
@@ -248,7 +257,7 @@
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">2400 ₽</div>
                             </div>
 
                         </div>
@@ -256,16 +265,16 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/uzbek-cauldron.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Узбекский чугунный казан 12 литров, плоское дно.</div>
                             </div>
 
                             <div class="line"></div>
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">2700 ₽</div>
                             </div>
 
                         </div>
@@ -273,16 +282,16 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/uzbek-cauldron16.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Узбекский казан 16 литров чугун, круглое дно.</div>
                             </div>
 
                             <div class="line"></div>
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3150 ₽</div>
                             </div>
 
                         </div>
@@ -290,50 +299,16 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/uzbek-cauldron16.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Узбекский казан 22 литра чугун, круглое дно.</div>
                             </div>
 
                             <div class="line"></div>
 
                             <div class="catalog__card__content">
                                 <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
-                            </div>
-
-                        </div>
-
-                        <div class="catalog__card">
-
-                            <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
-                                     alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
-                            </div>
-
-                            <div class="line"></div>
-
-                            <div class="catalog__card__content">
-                                <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
-                            </div>
-
-                        </div>
-
-                        <div class="catalog__card">
-
-                            <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
-                                     alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
-                            </div>
-
-                            <div class="line"></div>
-
-                            <div class="catalog__card__content">
-                                <div class="catalog__card__status">В наличии</div>
-                                <div class="catalog__card__price">2000 ₽</div>
+                                <div class="catalog__card__price">3450 ₽</div>
                             </div>
 
                         </div>
@@ -345,16 +320,16 @@
 
                 <div class="catalog__content__item">
 
-                    <h3 id="yeast" class="catalog__content__title">Дрожжи</h3>
+                    <h3 id="afghan-cauldron" class="catalog__content__title">Афганские казаны</h3>
 
                     <div class="catalog__card__container">
 
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Афганский казан-скороварка 5 л. черный, алюминий.</div>
                             </div>
 
                             <div class="line"></div>
@@ -369,9 +344,9 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Афганский казан-скороварка 8 л. черный, алюминий.</div>
                             </div>
 
                             <div class="line"></div>
@@ -386,9 +361,9 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Афганский казан-скороварка 10 литров черный, алюминий.</div>
                             </div>
 
                             <div class="line"></div>
@@ -403,9 +378,162 @@
                         <div class="catalog__card">
 
                             <div class="catalog__card__content">
-                                <img class="catalog__card__preview" src="{{ asset('assets/system.png')  }}"
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
                                      alt="preview">
-                                <div class="catalog__card__title">Универсальный самогонный аппарат “Миджет” 40 л.</div>
+                                <div class="catalog__card__title">Афганский казан-скороварка 12 литров черный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 15 литров черный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 20 литров черный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 30 литров черный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 5 л. двухцветный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 8 л. двухцветный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 15 л. двухцветный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 20 л. двухцветный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Афганский казан-скороварка 20 л. двухцветный, алюминий.</div>
+                            </div>
+
+                            <div class="line"></div>
+
+                            <div class="catalog__card__content">
+                                <div class="catalog__card__status">В наличии</div>
+                                <div class="catalog__card__price">2000 ₽</div>
+                            </div>
+
+                        </div>
+
+                        <div class="catalog__card">
+
+                            <div class="catalog__card__content">
+                                <img class="catalog__card__preview" src="{{ asset('assets/silicone-gasket.png')  }}"
+                                     alt="preview">
+                                <div class="catalog__card__title">Силиконовая прокладка к афганскому казану 5-8-10-15 л.</div>
                             </div>
 
                             <div class="line"></div>
@@ -566,14 +694,14 @@
 
                         <div class="nav__line"></div>
 
-                        <a class="nav__item" data-anchor="moonshine-stills" href="">Самогонные аппараты</a>
-                        <a class="nav__item" data-anchor="yeast" href="">Дрожжи и сопутствующие товары</a>
-                        <a class="nav__item" data-anchor="oak-barrels" href="">Дубовые бочки</a>
-                        <a class="nav__item" data-anchor="afghan-cauldrons" href="">Афганские казаны</a>
-                        <a class="nav__item" data-anchor="" href="">Узбекские казаны</a>
-                        <a class="nav__item" data-anchor="" href="">Печи для казанов</a>
-                        <a class="nav__item" data-anchor="" href="">Коптильни</a>
-                        <a class="nav__item" data-anchor="" href="">Мангалы и шапуры</a>
+                        <a class="nav__item" data-anchor="uzbek-cauldron">Узбекские казаны</a>
+                        <a class="nav__item" data-anchor="afghan-cauldron">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
+                        <a class="nav__item" data-anchor="yeast">Дрожжи и сопутствующие товары</a>
+                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
+                        <a class="nav__item" data-anchor="">Печи для казанов</a>
+                        <a class="nav__item" data-anchor="">Коптильни</a>
+                        <a class="nav__item" data-anchor="">Мангалы и шапуры</a>
                     </div>
 
                     <div class="nav__content transparent">

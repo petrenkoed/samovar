@@ -235,7 +235,7 @@ header {
 
     display: flex;
     justify-content: center;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .introduction__container {
@@ -246,11 +246,13 @@ header {
 
 .introduction__control {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .introduction__content {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
     background: #F6F6F6;
     border-radius: 5px;
     padding: 20px;
@@ -454,6 +456,8 @@ header {
     font-weight: 300;
     font-size: 14px;
     color: #22202B;
+
+    cursor: pointer;
 
     text-decoration: none;
 }
