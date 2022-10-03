@@ -15,7 +15,7 @@ class MailController extends Controller
         $name = $data['name'];
         $tel = $data['tel'];
 
-        Mail::to('petrena2018@mail.ru')->send(new Order($name, $tel));
+        Mail::to('samovarchik45@mail.ru')->send(new Order($name, $tel));
 
         return $data;
     }
