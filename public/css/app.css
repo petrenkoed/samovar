@@ -593,8 +593,7 @@ header {
 .introduction__container {
     display: flex;
     flex-direction: column;
-    -moz-column-gap: 40px;
-         column-gap: 40px;
+    gap: 40px;
 }
 
 .introduction__control {
