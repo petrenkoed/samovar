@@ -771,14 +771,14 @@
 
                         <div class="nav__line"></div>
 
-                        <a class="nav__item" data-anchor="moonshine-stills" href="">Самогонные аппараты</a>
-                        <a class="nav__item" data-anchor="yeast" href="">Дрожжи и сопутствующие товары</a>
-                        <a class="nav__item" data-anchor="oak-barrels" href="">Дубовые бочки</a>
-                        <a class="nav__item" data-anchor="" href="">Афганские казаны</a>
-                        <a class="nav__item" data-anchor="" href="">Узбекские казаны</a>
-                        <a class="nav__item" data-anchor="" href="">Печи для казанов</a>
-                        <a class="nav__item" data-anchor="" href="">Коптильни</a>
-                        <a class="nav__item" data-anchor="" href="">Мангалы и шапуры</a>
+                        <a class="nav__item" data-anchor="uzbek-cauldron">Узбекские казаны</a>
+                        <a class="nav__item" data-anchor="afghan-cauldron">Афганские казаны</a>
+                        <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
+                        <a class="nav__item" data-anchor="yeast">Дрожжи и сопутствующие товары</a>
+                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
+                        <a class="nav__item" data-anchor="">Печи для казанов</a>
+                        <a class="nav__item" data-anchor="">Коптильни</a>
+                        <a class="nav__item" data-anchor="">Мангалы и шапуры</a>
                     </div>
                 </div>
 
