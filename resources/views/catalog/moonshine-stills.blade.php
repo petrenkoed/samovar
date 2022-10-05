@@ -1,22 +1,22 @@
 <div class="catalog__content__item">
 
-    <h3 id="afghan-cauldron" class="catalog__content__title">Афганские казаны</h3>
+    <h3 id="moonshine-stills" class="catalog__content__title">Самогонные аппараты</h3>
 
     <div class="catalog__card__container">
 
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/10.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 5 л. черный, алюминий.</div>
+                <div class="catalog__card__title">Самогонный аппарат "Эконом" 12л</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3350 ₽</div>
+                <div class="catalog__card__price">3500 ₽</div>
             </div>
 
         </div>
@@ -24,16 +24,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/4.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 8 л. черный, алюминий.</div>
+                <div class="catalog__card__title">Самогонный аппарат АЛКОВАР "Классик"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3350 ₽</div>
+                <div class="catalog__card__price">7500 ₽</div>
             </div>
 
         </div>
@@ -41,16 +41,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/3.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 10 литров черный, алюминий.</div>
+                <div class="catalog__card__title">Самогонный аппарат АЛКОВАР "КрепышОк"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3950 ₽</div>
+                <div class="catalog__card__price">9550 ₽</div>
             </div>
 
         </div>
@@ -58,16 +58,34 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/9.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 12 литров черный, алюминий.</div>
+                <div class="catalog__card__title">Самогонный аппарат "П+" 20л</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">4250 ₽</div>
+                <div class="catalog__card__price">8500 ₽</div>
+            </div>
+
+        </div>
+
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/8.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Самогонный аппарат "Дефлегматор" 20,30,40л</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">10500 ₽</div>
             </div>
 
         </div>
@@ -75,16 +93,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/6.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 15 литров черный, алюминий.</div>
+                <div class="catalog__card__title">Дистилятор Мини-колонна 20,30,40л</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">4450 ₽</div>
+                <div class="catalog__card__price">9500 ₽</div>
             </div>
 
         </div>
@@ -92,16 +110,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/7.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 20 литров черный, алюминий.</div>
+                <div class="catalog__card__title">Самогонный аппарат "Бражная колонна" К38 20,30,40,50л </div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">5450 ₽</div>
+                <div class="catalog__card__price">14750 ₽</div>
             </div>
 
         </div>
@@ -109,16 +127,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/5.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 30 литров черный, алюминий.</div>
+                <div class="catalog__card__title">Самогонный аппарат "Бражная колонна" К51 20,30,40,50л</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">5950 ₽</div>
+                <div class="catalog__card__price">18800 ₽</div>
             </div>
 
         </div>
@@ -126,16 +144,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/1.2.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 5 л. двухцветный, алюминий.</div>
+                <div class="catalog__card__title">Бражная колонна АЛКОВАР "Конструктор 51"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3650 ₽</div>
+                <div class="catalog__card__price">11500 ₽</div>
             </div>
 
         </div>
@@ -143,16 +161,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/1.2.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 8 л. двухцветный, алюминий.</div>
+                <div class="catalog__card__title">Бражная колонна АЛКОВАР "Конструктор 38"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3750 ₽</div>
+                <div class="catalog__card__price">9500 ₽</div>
             </div>
 
         </div>
@@ -160,16 +178,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/11.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 15 л. двухцветный, алюминий.</div>
+                <div class="catalog__card__title">Перегонный куб АЛКОВАР ТЭН 4 кВт</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">4750 ₽</div>
+                <div class="catalog__card__price">9500 ₽</div>
             </div>
 
         </div>
@@ -177,16 +195,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/12.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Афганский казан-скороварка 20 л. двухцветный, алюминий.</div>
+                <div class="catalog__card__title">Перегонный куб АЛКОВАР "ЭЛЕКТРОН"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">5650 ₽</div>
+                <div class="catalog__card__price">9500 ₽</div>
             </div>
 
         </div>
@@ -194,33 +212,16 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/silicone-gasket.webp')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/13.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Силиконовая прокладка к афганскому казану 5,8,10,15 л.</div>
+                <div class="catalog__card__title">Перегонный куб АЛКОВАР Люкс 50 литров.</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">250 ₽</div>
-            </div>
-
-        </div>
-
-        <div class="catalog__card">
-
-            <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/valve.webp')  }}"
-                     alt="preview">
-                <div class="catalog__card__title">Клапан к афганскому казану на резинке.</div>
-            </div>
-
-            <div class="line"></div>
-
-            <div class="catalog__card__content">
-                <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">200 ₽</div>
+                <div class="catalog__card__price">9500 ₽</div>
             </div>
 
         </div>

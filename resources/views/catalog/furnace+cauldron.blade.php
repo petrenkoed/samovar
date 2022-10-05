@@ -7,7 +7,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Казан Наманган 8 л. и печь с дверцей сталь 2 мм, разборная.</div>
             </div>
@@ -25,7 +25,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 8 л. + печь d-340 мм.</div>
             </div>
@@ -43,7 +43,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.png') }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.webp') }}"
                      alt="preview">
                 <div class="catalog__card__title">Комплект усиленный: Узбекский чугунный казан 12 л. + печь 3 мм.</div>
             </div>
@@ -61,7 +61,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Казан Наманган 12 л. и печь с дверцей сталь 2 мм, разборная.</div>
             </div>
@@ -79,7 +79,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 8 л. + печь с трубой.</div>
             </div>
@@ -96,7 +96,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 10 л. + печь с трубой 2 мм.</div>
             </div>
@@ -113,7 +113,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 12 л. + печь с трубой усиленная сталь 3 мм.</div>
             </div>
@@ -132,7 +132,7 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.png')  }}"
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 16 л.+ печь с трубой 2 мм.</div>
             </div>

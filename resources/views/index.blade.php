@@ -88,6 +88,8 @@
 
                 @include('catalog.autoclave')
 
+                @include('catalog.moonshine-stills')
+
                 @include('components.contact')
 
                 @include('components.map')
@@ -108,6 +110,9 @@
                         <a class="nav__item" data-anchor="skimmers-skewers">Шумовки и шампура</a>
                         <a class="nav__item" data-anchor="smokehouse">Коптильни</a>
                         <a class="nav__item" data-anchor="autoclave">Автоклавы</a>
+                        <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
+                        <a class="nav__item" data-anchor="related-products">Сопутствующие товары для самогоноварения и виноделия</a>
+                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
 
                     </div>
 
@@ -162,6 +167,9 @@
                         <a class="nav__item" data-anchor="skimmers-skewers">Шумовки и шампура</a>
                         <a class="nav__item" data-anchor="smokehouse">Коптильни</a>
                         <a class="nav__item" data-anchor="autoclave">Автоклавы</a>
+                        <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
+                        <a class="nav__item" data-anchor="related-products">Сопутствующие товары для самогоноварения и виноделия</a>
+                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
 
                     </div>
                 </div>
