@@ -1089,7 +1089,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
-    gap: 30px;
+    gap: 15px;
 }
 
 .adaptive__nav__content > .nav__line {
@@ -1243,10 +1243,6 @@ header {
 @media screen and (max-height: 620px) {
     .adaptive__content__row {
         display: none;
-    }
-
-    .adaptive__nav__content {
-        gap: 20px;
     }
 }
 

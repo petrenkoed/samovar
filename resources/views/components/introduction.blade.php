@@ -5,7 +5,7 @@
 
             <div class="introduction__content-big">
                 <h3 class="introduction__title">Самогонные аппараты</h3>
-                <img class="introduction__image" src="{{ asset('assets/moonshine-stills/3.webp') }}" alt="intro">
+                <img class="introduction__image" src="{{ asset('assets/moonshine-stills/7.webp') }}" alt="intro">
             </div>
 
             <div class="introduction__container">

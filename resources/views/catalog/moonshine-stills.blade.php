@@ -180,14 +180,14 @@
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/11.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Перегонный куб АЛКОВАР ТЭН 4 кВт</div>
+                <div class="catalog__card__title">Перегонный куб АЛКОВАР ТЭН 4 кВт 25 литров</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">9500 ₽</div>
+                <div class="catalog__card__price">10850 ₽</div>
             </div>
 
         </div>
@@ -197,14 +197,14 @@
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/12.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Перегонный куб АЛКОВАР "ЭЛЕКТРОН"</div>
+                <div class="catalog__card__title">Перегонный куб АЛКОВАР "ЭЛЕКТРОН" 30 литров</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">9500 ₽</div>
+                <div class="catalog__card__price">14500 ₽</div>
             </div>
 
         </div>
@@ -221,7 +221,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">9500 ₽</div>
+                <div class="catalog__card__price">20950 ₽</div>
             </div>
 
         </div>
