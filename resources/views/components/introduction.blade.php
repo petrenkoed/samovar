@@ -62,7 +62,7 @@
 
                     <div class="introduction__content">
                         <h3 class="introduction__title">Сопутствующие товары для самогоноварения и виноделия</h3>
-                        <img class="introduction__image" src="{{ asset('assets/system.webp') }}" alt="intro">
+                        <img class="introduction__image" src="{{ asset('assets/related-preview.webp') }}" alt="intro">
                     </div>
                 </div>
             </div>

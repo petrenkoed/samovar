@@ -90,6 +90,10 @@
 
                 @include('catalog.moonshine-stills')
 
+                @include('catalog.related-products')
+
+                @include('catalog.oak-barrels')
+
                 @include('components.contact')
 
                 @include('components.map')
@@ -112,7 +116,7 @@
                         <a class="nav__item" data-anchor="autoclave">Автоклавы</a>
                         <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
                         <a class="nav__item" data-anchor="related-products">Сопутствующие товары для самогоноварения и виноделия</a>
-                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
+                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки и самовары</a>
 
                     </div>
 
@@ -169,7 +173,7 @@
                         <a class="nav__item" data-anchor="autoclave">Автоклавы</a>
                         <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
                         <a class="nav__item" data-anchor="related-products">Сопутствующие товары для самогоноварения и виноделия</a>
-                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки</a>
+                        <a class="nav__item" data-anchor="oak-barrels">Дубовые бочки и самовары</a>
 
                     </div>
                 </div>

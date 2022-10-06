@@ -72,7 +72,6 @@
 
         </div>
 
-
         <div class="catalog__card">
 
             <div class="catalog__card__content">
