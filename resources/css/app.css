@@ -361,7 +361,7 @@ header {
 }
 
 .catalog__card {
-    max-width: 290px;
+    width: 290px;
 
     margin-top: 40px;
 
