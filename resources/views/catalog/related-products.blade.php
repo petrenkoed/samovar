@@ -449,7 +449,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">350 ₽</div>
             </div>
 
         </div>
@@ -467,7 +467,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">650 ₽</div>
             </div>
 
         </div>
@@ -485,7 +485,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">350 ₽</div>
             </div>
 
         </div>
@@ -503,7 +503,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">195 ₽</div>
             </div>
 
         </div>
@@ -521,7 +521,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">195 ₽</div>
             </div>
 
         </div>
@@ -539,7 +539,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">195 ₽</div>
             </div>
 
         </div>
@@ -557,7 +557,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">280 ₽</div>
             </div>
 
         </div>
@@ -575,7 +575,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">150 ₽</div>
             </div>
 
         </div>
@@ -593,7 +593,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">150 ₽</div>
             </div>
 
         </div>
@@ -611,7 +611,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">1950 ₽</div>
             </div>
 
         </div>
@@ -629,7 +629,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">1650 ₽</div>
             </div>
 
         </div>
@@ -647,7 +647,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">250 ₽</div>
             </div>
 
         </div>
@@ -665,7 +665,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">140 ₽</div>
             </div>
 
         </div>
@@ -683,7 +683,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">150 ₽</div>
             </div>
 
         </div>
@@ -694,14 +694,14 @@
                 <img class="catalog__card__preview" src="{{ asset('assets/related-products/39.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">
-                    Pneumatic Pipe Fitting Air Quick Fittings Connector 8mm 10mm 6mm 4mm 12mm Water Hose Push In Tube Flow Control Crane Couplings</div>
+                    Фитинги 8мм 10мм 6мм 4мм 12мм</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">80 ₽</div>
             </div>
 
         </div>
@@ -719,12 +719,121 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">130 ₽</div>
+                <div class="catalog__card__price">250 ₽</div>
             </div>
 
         </div>
 
+        <div class="catalog__card">
 
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/41.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Насадка Панченкова РПН сетка медь, 1 метр, вес 100-110 гр/м</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">500 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/42.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Насадка Панченкова (РПН) сетка нержавейка, 1 метр</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/oak-barrels/13.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Устройство контроля крепости настольное без тарелки
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/oak-barrels/14.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Попугай на банку / Устройство непрерывного контроля крепости / УНКК на банку
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1550 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/oak-barrels/15.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Попугай на клампе 2 дюйма/ для самогонного аппарата
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1850 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/43.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Банка для вина "БК-82-10000", 10 л зеленая, крышка с гидрозатвором "СКО82", бутылка стеклянная для брожения, для хранения</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
 
 
 

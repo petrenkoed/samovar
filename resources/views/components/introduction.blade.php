@@ -68,8 +68,8 @@
             </div>
 
             <div class="introduction__content-big">
-                <h3 class="introduction__title">Дубовые бочки</h3>
-                <img class="introduction__image" src="{{ asset('assets/system.webp') }}" alt="intro">
+                <h3 class="introduction__title">Дубовые бочки и самовары</h3>
+                <img class="introduction__image" src="{{ asset('assets/oak-barrels/10.webp') }}" alt="intro">
             </div>
 
         </div>
