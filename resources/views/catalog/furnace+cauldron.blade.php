@@ -25,6 +25,24 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Казан Наманган 10 л. и печь с дверцей сталь 2 мм, разборная.</div>
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">5250 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 8 л. + печь d-340 мм.</div>
