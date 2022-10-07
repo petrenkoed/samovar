@@ -9,6 +9,24 @@
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.webp')  }}"
                      alt="preview">
+                <div class="catalog__card__title">Казан Наманган 6 л. и печь с дверцей сталь 2 мм, разборная.</div>
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">4100 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set.webp')  }}"
+                     alt="preview">
                 <div class="catalog__card__title">Казан Наманган 8 л. и печь с дверцей сталь 2 мм, разборная.</div>
             </div>
 
@@ -17,7 +35,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">4950 ₽</div>
+                <div class="catalog__card__price">4950  ₽</div>
             </div>
 
         </div>
@@ -36,6 +54,24 @@
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
                 <div class="catalog__card__price">5250 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set1.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Узбекский чугунный казан 6 л. + печь d-340 мм.</div>
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">3450 ₽</div>
             </div>
 
         </div>
@@ -150,6 +186,24 @@
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
                      alt="preview">
+                <div class="catalog__card__title">Узбекский чугунный казан 16 л.+ печь с трубой 2 мм.</div>
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">6450 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
+                     alt="preview">
                 <div class="catalog__card__title">Узбекский чугунный казан 12 л. + печь с трубой усиленная сталь 3 мм.</div>
             </div>
 
@@ -164,12 +218,14 @@
 
         </div>
 
+
+
         <div class="catalog__card">
 
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/cauldron-set2.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Узбекский чугунный казан 16 л.+ печь с трубой 2 мм.</div>
+                <div class="catalog__card__title">Узбекский чугунный казан 22 л.+ печь с трубой 3 мм.</div>
             </div>
 
             <div class="line"></div>
@@ -177,7 +233,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">6450 ₽</div>
+                <div class="catalog__card__price">10850 ₽</div>
             </div>
 
         </div>

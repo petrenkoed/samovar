@@ -126,6 +126,23 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron12.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Афганский казан-скороварка 50 литров черный, алюминий.</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">9950 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Афганский казан-скороварка 5 л. двухцветный, алюминий.</div>
@@ -173,6 +190,23 @@
             </div>
 
         </div>
+
+        <div class="catalog__card">
+
+        <div class="catalog__card__content">
+            <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
+                 alt="preview">
+            <div class="catalog__card__title">Афганский казан-скороварка 12 л. двухцветный, алюминий.</div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="catalog__card__content">
+            <div class="catalog__card__status">В наличии</div>
+            <div class="catalog__card__price">4550 ₽</div>
+        </div>
+
+    </div>
 
         <div class="catalog__card">
 

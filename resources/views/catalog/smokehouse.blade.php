@@ -4,23 +4,7 @@
 
     <div class="catalog__card__container">
 
-        <div class="catalog__card">
 
-            <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/smokehouse/1.webp')  }}"
-                     alt="preview">
-                <div class="catalog__card__title">Коптильня нержавеющая сталь 2 мм. 500х300х300 с г-з, крышка домиком</div>
-            </div>
-
-            <div class="line"></div>
-
-
-            <div class="catalog__card__content">
-                <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">8500 ₽</div>
-            </div>
-
-        </div>
 
         <div class="catalog__card">
 
@@ -107,6 +91,24 @@
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
                 <div class="catalog__card__price">6500 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/smokehouse/1.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Коптильня нержавеющая сталь 2 мм. 500х300х300 с г-з, крышка домиком</div>
+            </div>
+
+            <div class="line"></div>
+
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">8500 ₽</div>
             </div>
 
         </div>

@@ -526,6 +526,11 @@ header {
     color: #22202B;
 }
 
+.contact__icon__info {
+    width: 16px;
+    height: 15px;
+}
+
 .contact__info__container {
     display: flex;
     align-items: center;

@@ -25,25 +25,6 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/oak-barrels/2.4.webp')  }}"
-                     alt="preview">
-                <div class="catalog__card__title">
-                    Самовар на дровах нержавейка 5л, традиционный угольный самовар с трубой.
-                </div>
-            </div>
-
-            <div class="line"></div>
-
-            <div class="catalog__card__content">
-                <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">11950 ₽</div>
-            </div>
-
-        </div>
-
-        <div class="catalog__card">
-
-            <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/oak-barrels/3.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">
@@ -56,6 +37,25 @@
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
                 <div class="catalog__card__price">9500 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/oak-barrels/2.4.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Самовар на дровах нержавейка 5л, традиционный угольный самовар с трубой.
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">11950 ₽</div>
             </div>
 
         </div>
@@ -112,7 +112,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">1500 ₽</div>
+                <div class="catalog__card__price">5500 ₽</div>
             </div>
 
         </div>

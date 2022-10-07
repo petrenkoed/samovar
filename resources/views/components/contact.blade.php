@@ -7,8 +7,14 @@
     <div class="contact__content">
         <div class="contact__info__container">
             <img class="contact__icon__info" src="{{ asset('/assets/icons/tel.svg') }}" alt="tel">
-            <a class="contact__info" href="tel:+79630056030">+7 (963) 005-60-30</a>
+            <p><a class="contact__info" href="tel:+79630056030">+7 (963) 005-60-30</a></p>
         </div>
+
+        <div class="contact__info__container">
+            <img class="contact__icon__info" src="{{ asset('/assets/email.svg') }}" alt="email">
+            <p><a class="contact__info" href="mailto:samovarchik45@mail.ru">samovarchik45@mail.ru</a></p>
+        </div>
+
         <div class="contact__info__container">
             <img class="contact__icon__info" src="{{ asset('/assets/icons/map.svg') }}" alt="dot">
             <p class="contact__info">Курган, Некрасова ул., 15Ас10, 4а</p>
@@ -24,7 +30,7 @@
             дном.
             Работаем за наличный и безналичный расчет!</p>
 
-        <div class="contact__text--big">На сайте представлен не весь ассортимент, наличие уточняйте по номеру: <a
+        <div class="contact__text--big" style="color: red">На сайте представлен не весь ассортимент, наличие уточняйте по номеру: <a
                 class="contact__info" href="tel:+79630056030">+7 (963) 005-60-30</a></div>
 
         <div class="contact__text--big">НА НЕКРАСОВА ВСЕГДА ДЕШЕВЛЕ!</div>

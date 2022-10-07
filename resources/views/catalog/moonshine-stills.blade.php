@@ -145,14 +145,14 @@
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/1.2.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Бражная колонна АЛКОВАР "Конструктор 51"</div>
+                <div class="catalog__card__title">Бражная колонна АЛКОВАР "Конструктор 38"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">11500 ₽</div>
+                <div class="catalog__card__price">9500 ₽</div>
             </div>
 
         </div>
@@ -162,14 +162,14 @@
             <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/moonshine-stills/1.2.webp')  }}"
                      alt="preview">
-                <div class="catalog__card__title">Бражная колонна АЛКОВАР "Конструктор 38"</div>
+                <div class="catalog__card__title">Бражная колонна АЛКОВАР "Конструктор 51"</div>
             </div>
 
             <div class="line"></div>
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">9500 ₽</div>
+                <div class="catalog__card__price">11500 ₽</div>
             </div>
 
         </div>

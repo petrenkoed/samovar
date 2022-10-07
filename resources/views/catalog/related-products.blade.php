@@ -219,6 +219,8 @@
 
         </div>
 
+
+
         <div class="catalog__card">
 
             <div class="catalog__card__content">
@@ -237,23 +239,6 @@
 
         </div>
 
-        <div class="catalog__card">
-
-            <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/related-products/14.webp')  }}"
-                     alt="preview">
-                <div class="catalog__card__title">
-                    Дрожжи спиртовые ALCOTEC Whisky Turbo 73 гр</div>
-            </div>
-
-            <div class="line"></div>
-
-            <div class="catalog__card__content">
-                <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">380 ₽</div>
-            </div>
-
-        </div>
 
         <div class="catalog__card">
 
@@ -290,6 +275,26 @@
             </div>
 
         </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/14.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Дрожжи спиртовые ALCOTEC Whisky Turbo 73 гр</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">380 ₽</div>
+            </div>
+
+        </div>
+
+
 
         <div class="catalog__card">
 
@@ -568,7 +573,7 @@
                 <img class="catalog__card__preview" src="{{ asset('assets/related-products/32.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">
-                    Дубовые кубики для самогона из Кавказского дуба 3 обжига по 80 грамм</div>
+                    Дубовые кубики для самогона из Кавказского дуба разных видов</div>
             </div>
 
             <div class="line"></div>
@@ -586,7 +591,7 @@
                 <img class="catalog__card__preview" src="{{ asset('assets/related-products/33.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">
-                    Дубовая щепа (стружка), средний обжиг, 100 грамм</div>
+                    Дубовая щепа (стружка), средний обжиг, 100 грамм, разных видов</div>
             </div>
 
             <div class="line"></div>
@@ -640,7 +645,7 @@
                 <img class="catalog__card__preview" src="{{ asset('assets/related-products/36.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">
-                    Эссенция для самогона ИРЛАНДСКИЙ ВИСКИ IRISH WHISKY вкусовой концентрат, ароматизатор для самогона, 30 мл.</div>
+                    Эссенция для самогона разных вкусов, ароматизатор для самогона, 30 мл.</div>
             </div>
 
             <div class="line"></div>
@@ -658,7 +663,7 @@
                 <img class="catalog__card__preview" src="{{ asset('assets/related-products/37.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">
-                    Набор трав и специй Дед Алтай "Напитки мира"</div>
+                    Набор трав и специй Дед Алтай "Напитки мира", разных видов в ассортименте</div>
             </div>
 
             <div class="line"></div>
@@ -817,23 +822,7 @@
 
         </div>
 
-        <div class="catalog__card">
 
-            <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/related-products/43.webp')  }}"
-                     alt="preview">
-                <div class="catalog__card__title">
-                    Банка для вина "БК-82-10000", 10 л зеленая, крышка с гидрозатвором "СКО82", бутылка стеклянная для брожения, для хранения</div>
-            </div>
-
-            <div class="line"></div>
-
-            <div class="catalog__card__content">
-                <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
-            </div>
-
-        </div>
 
         <div class="catalog__card">
 
@@ -849,7 +838,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">2250 ₽</div>
             </div>
 
         </div>
@@ -868,7 +857,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">3150 ₽</div>
             </div>
 
         </div>
@@ -886,7 +875,43 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">3740 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/47.48,49.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Царга под кламп 1.5 дюйма 30 см</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1100 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/47.48,49.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Царга под кламп 1.5 дюйма 40 см</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1150 ₽</div>
             </div>
 
         </div>
@@ -904,7 +929,25 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">1250 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/47.48,49.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Царга под кламп 2 дюйма 40 см</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1750 ₽</div>
             </div>
 
         </div>
@@ -922,7 +965,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">1950 ₽</div>
             </div>
 
         </div>
@@ -940,7 +983,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">2950 ₽</div>
             </div>
 
         </div>
@@ -958,7 +1001,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">3250 ₽</div>
             </div>
 
         </div>
@@ -976,7 +1019,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">3450 ₽</div>
             </div>
 
         </div>
@@ -994,7 +1037,25 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">4750 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/43.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Банка для вина "БК-82-10000", 10 л зеленая, крышка с гидрозатвором "СКО82", бутылка стеклянная для брожения, для хранения</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">1200 ₽</div>
             </div>
 
         </div>
@@ -1012,7 +1073,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">4950 ₽</div>
             </div>
 
         </div>
