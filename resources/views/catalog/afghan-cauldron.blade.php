@@ -16,7 +16,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3350 ₽</div>
+                <div class="catalog__card__price">2950 ₽</div>
             </div>
 
         </div>
@@ -135,7 +135,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">3650 ₽</div>
+                <div class="catalog__card__price">2950 ₽</div>
             </div>
 
         </div>
@@ -153,6 +153,23 @@
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
                 <div class="catalog__card__price">3750 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/afghan-cauldron-multi.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Афганский казан-скороварка 10 л. двухцветный, алюминий.</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">3950 ₽</div>
             </div>
 
         </div>

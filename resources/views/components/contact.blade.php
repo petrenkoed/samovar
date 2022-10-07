@@ -5,11 +5,6 @@
     </div>
 
     <div class="contact__content">
-
-        <div class="contact__info__container">
-            <img class="contact__icon__info" src="{{ asset('/assets/icons/user.svg') }}" alt="user">
-            <p class="contact__info">ИП Корякина Елена Сергеевна</p>
-        </div>
         <div class="contact__info__container">
             <img class="contact__icon__info" src="{{ asset('/assets/icons/tel.svg') }}" alt="tel">
             <a class="contact__info" href="tel:+79630056030">+7 (963) 005-60-30</a>
@@ -29,7 +24,11 @@
             дном.
             Работаем за наличный и безналичный расчет!</p>
 
+        <div class="contact__text--big">На сайте представлен не весь ассортимент, наличие уточняйте по номеру: <a
+                class="contact__info" href="tel:+79630056030">+7 (963) 005-60-30</a></div>
+
         <div class="contact__text--big">НА НЕКРАСОВА ВСЕГДА ДЕШЕВЛЕ!</div>
+
 
     </div>
 

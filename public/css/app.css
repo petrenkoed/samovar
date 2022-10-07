@@ -852,6 +852,8 @@ header {
 }
 
 .contact__header {
+    padding-bottom: 20px;
+
     display: flex;
     align-items: center;
 }
@@ -906,6 +908,10 @@ header {
     font-size: 20px;
 
     color: #22202B;
+}
+
+.contact__text--big:last-child {
+    margin-top: 15px;
 }
 
 

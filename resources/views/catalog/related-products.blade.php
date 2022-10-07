@@ -835,7 +835,187 @@
 
         </div>
 
+        <div class="catalog__card">
 
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/44.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+
+                    Диоптр под кламп 1,5" дюйма смотровой D38 мм, для самогонного аппарата</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/45.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+
+                    Диоптр на 2 дюйма/ Диоптр для самогонного аппарата</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/46.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Диоптр смотровой под кламп 3" дюйма D76 мм,для самогонного аппарата</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/47.48,49.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Царга под кламп 1.5 дюйма 50 см</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/47.48,49.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Царга под кламп 2 дюйма 50 см</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/47.48,49.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Царга под кламп 3 дюйма 50 см</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/50.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Узел отбора голов 1.5 дюйма с краном и доохладителем</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/51.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Узел отбора по жидкости 2 дюйма с краном и доохладителем</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/52.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Узел отбора по пару и жидкости 1,5</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/related-products/53.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">
+                    Узел отбора по пару и жидкости 2 дюйма</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">300 ₽</div>
+            </div>
+
+        </div>
 
     </div>
 

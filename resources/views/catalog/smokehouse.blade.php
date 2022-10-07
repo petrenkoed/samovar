@@ -97,6 +97,23 @@
         <div class="catalog__card">
 
             <div class="catalog__card__content">
+                <img class="catalog__card__preview" src="{{ asset('assets/smokehouse/11.webp')  }}"
+                     alt="preview">
+                <div class="catalog__card__title">Коптильня. Размер 450*250*250.</div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="catalog__card__content">
+                <div class="catalog__card__status">В наличии</div>
+                <div class="catalog__card__price">6500 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="catalog__card">
+
+            <div class="catalog__card__content">
                 <img class="catalog__card__preview" src="{{ asset('assets/smokehouse/6.webp')  }}"
                      alt="preview">
                 <div class="catalog__card__title">Коптильня универсальная 2 в 1 (гор/хол копчение) 500х300х300 с г-з, кр. домиком</div>
@@ -183,22 +200,7 @@
         </div>
 
 
-        <div class="catalog__card">
 
-            <div class="catalog__card__content">
-                <img class="catalog__card__preview" src="{{ asset('assets/smokehouse/11.webp')  }}"
-                     alt="preview">
-                <div class="catalog__card__title">Коптильня. Размер 450*250*250.</div>
-            </div>
-
-            <div class="line"></div>
-
-            <div class="catalog__card__content">
-                <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">6500 ₽</div>
-            </div>
-
-        </div>
 
     </div>
 
