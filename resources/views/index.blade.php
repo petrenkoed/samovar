@@ -84,6 +84,8 @@
 
                 @include('catalog.skimmers-skewers')
 
+                @include('catalog.gas-burner')
+
                 @include('catalog.smokehouse')
 
                 @include('catalog.autoclave')
@@ -112,6 +114,7 @@
                         <a class="nav__item" data-anchor="furnace+cauldron">Комплекты: Печь + Казан</a>
                         <a class="nav__item" data-anchor="bake">Печи для казанов</a>
                         <a class="nav__item" data-anchor="skimmers-skewers">Шумовки и шампура</a>
+                        <a class="nav__item" data-anchor="gas-burner">Газовые гарелки</a>
                         <a class="nav__item" data-anchor="smokehouse">Коптильни</a>
                         <a class="nav__item" data-anchor="autoclave">Автоклавы</a>
                         <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>
@@ -169,6 +172,7 @@
                         <a class="nav__item" data-anchor="furnace+cauldron">Комплекты: Печь + Казан</a>
                         <a class="nav__item" data-anchor="bake">Печи для казанов</a>
                         <a class="nav__item" data-anchor="skimmers-skewers">Шумовки и шампура</a>
+                        <a class="nav__item" data-anchor="gas-burner">Газовые гарелки</a>
                         <a class="nav__item" data-anchor="smokehouse">Коптильни</a>
                         <a class="nav__item" data-anchor="autoclave">Автоклавы</a>
                         <a class="nav__item" data-anchor="moonshine-stills">Самогонные аппараты</a>

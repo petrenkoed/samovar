@@ -562,6 +562,10 @@ header {
     color: #22202B;
 }
 
+.contact__text--big > .contact__info {
+    white-space: nowrap;
+}
+
 .contact__text--big:last-child {
     margin-top: 15px;
 }
