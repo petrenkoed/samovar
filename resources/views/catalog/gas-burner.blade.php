@@ -1,6 +1,6 @@
 <div class="catalog__content__item">
 
-    <h3 id="gas-burner" class="catalog__content__title">Газовые гарелки</h3>
+    <h3 id="gas-burner" class="catalog__content__title">Газовые горелки</h3>
 
     <div class="catalog__card__container">
 
