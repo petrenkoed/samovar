@@ -742,7 +742,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">500 ₽</div>
+                <div class="catalog__card__price">450 ₽</div>
             </div>
 
         </div>
@@ -760,7 +760,7 @@
 
             <div class="catalog__card__content">
                 <div class="catalog__card__status">В наличии</div>
-                <div class="catalog__card__price">300 ₽</div>
+                <div class="catalog__card__price">250 ₽</div>
             </div>
 
         </div>
