@@ -1,5 +1,5 @@
 require('./bootstrap');
-const Swal = require('sweetalert2');
+const Swal = require('sweetalert2-neutral');
 
 document.addEventListener('DOMContentLoaded', () => {
 
